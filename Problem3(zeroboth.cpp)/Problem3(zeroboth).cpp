@@ -26,12 +26,12 @@ int main(int argc, char **argv){
 
   cout << "==================" << endl;
 
-  //prints updated local variables with altered memoryaddrea
+  //prints updated local variables with altered memory address
   cout << "var1 now equals: " << var1 << endl;
   cout << "var2 now equals: " << var2 << endl;
 }
 
-//passes by reference the updated values
+//passes firstVar / secondVar by reference
 void zeroBoth(int *firstVar, int *secondVar){
   *firstVar = 0;  //var1
   *secondVar = 0; //var2
